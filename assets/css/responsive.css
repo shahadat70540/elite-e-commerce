@@ -13,7 +13,7 @@
     /* THE HEADER SECTION ENDS HERE */
     /* THIS IS THE SLIDER SECTION START HERE */
     .car_main {
-        display: flex;
+        height: 350px;
     }
     .car1 {
         width: 50%;
