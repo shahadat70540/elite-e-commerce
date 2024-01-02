@@ -177,7 +177,6 @@ body {
 }
 .car2 {
     width: 50%;
-    height: 100%;
     position: relative;
 }
 .product1 {
@@ -337,6 +336,7 @@ body {
     box-shadow: 1px 0px 5px 0px grey;
     transition: 1s;
     margin-top: 20px;
+    padding: 20px 0px;
 }
 .main_div:hover {
     width: 100%;

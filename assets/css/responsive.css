@@ -10,61 +10,93 @@
         display: block;
     }
     /* THE SLICKNAV SECTION ENDS HERE */
+    /* THE HEADER SECTION ENDS HERE */
     /* THIS IS THE SLIDER SECTION START HERE */
+    .car_main {
+        display: flex;
+    }
+    .car1 {
+        width: 50%;
+        position: relative;
+    }
+    .product_contant {
+        padding-left: 10px;
+    }
     .product_contant p:first-child {
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: normal;
     }
     .product_contant p:nth-child(2) {
         font-size: 12px;
+        font-weight: normal;
     }
-    .product_contant p:nth-child(3) {
-        font-size: 16px;
-    }
-    .product_contant a {
-        font-size: 12px;
-        padding: 10px 10px;
+    .car2 {
+        width: 50%;
     }
     .product1 {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
+        border-radius: 0%;
+        border: 3px groove transparent;
     }
     .product2 {
-        width: 100px;
-        height: 100px;
-        top: 110px;
-        right: 0px;
-        left: 0;
+        display: none;
     }
     .product3 {
-        width: 100px;
-        height: 100px;
-        bottom: 110px;
-        right: 0;
-        left: 0px;
+        display: none;
     }
     .product4 {
-        width: 100px;
-        height: 100px;
-        top: 0;
-        right: 20px;
-        bottom: 0px;
+        display: none;
     }
     .product5 {
-        width: 100px;
-        height: 100px;
-        top: 0;
-        left: 20px;
-        bottom: 0px;
+        display: none;
     }
     .tv {
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
     .x-box {
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
     /* THE SLIDER SECTION ENDS HERE */
+    /* THE SLIDER SECTION ENDS HERE */
+    /* THIS IS THE PRODUCT HEADDING SECTION START HERE */
+    .hadding h3 {
+        font-size: 18px;
+        padding: 30px 0px 0px 0px;
+    }
+    .heading h4 {
+        font-size: 20px;
+    }
+    .heading p {
+        font-size: 14px;
+    }
+    /* THE PRODUCT HEADDING SECTION ENDS HERE */
+    /* THIS IS THE GET IN TOUCH SECTION START HERE */
+    .get_in_touch {
+        margin: 50px 0px;
+    }
+    .get_in_touch h1 {
+        font-size: 28px;
+    }
+    .get_in_touch p {
+        font-size: 14px;
+    }
+    /* THE GET IN TOUCH SECTION ENDS HERE */
+    /* THIS IS THE FOOTER SECTION START HERE */
+    .reserved {
+        padding: 0px;
+    }
+    .reserved span {
+        display: block;
+    }
+    /* THE FOOTER SECTION ENDS HERE */
+    /* THIS IS THE WHATSAPP BUTTON SECTION START HERE */
+    .whatsapp i {
+        font-size: 25px;
+    }
+    /* THE WHATSAPP BUTTON SECTION ENDS HERE */
 }
 
 /* Small devices (landscape phones, 576px and up) */

@@ -5,6 +5,8 @@ $(document).ready(function(){
         label: '',
         duration: 1000,
         easingOpen: "easeOutBounce",
+        easingClose: "easeOutBounce",
+        closeOnClick: "true",
     });
     // THE SLICKNAV SECTION ENDS HERE
     // THIS IS THE SLIDER SECTION START HERE
