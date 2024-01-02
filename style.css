@@ -1,0 +1,495 @@
+body {
+    background-color: #dae0e6;
+    font-family: Inter-Regular;
+}
+@font-face{
+    src: url(assets/fonts/Inter-Regular.ttf);
+    font-family: Inter-Regular;
+}
+/* THIS IS THE HEADER SECTION START HERE */
+.container-fluid {
+    background-image: linear-gradient(to bottom, #f07caa, #FF267B);
+    padding: 10px 0px;
+}
+/* THIS IS THE HEADER SECTION LOGO START HERE */
+.logo_one {
+    padding: 0;
+}
+.logo_one .logo {
+    width: 160px;
+}
+.logo img {
+    width: 100%;
+}
+/* THE HEADER SECTION LOGO ENDS HERE */
+/* THIS IS THE NAVIGATION SECTION START HERE */
+.nav_two {
+    padding: 0;
+}
+.nav_two .navigation nav ul li{
+    transition: 2s;
+    border-radius: 10px;
+}
+.nav_two .navigation nav ul li a {
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav_two .navigation nav ul li:hover {
+    background-image: linear-gradient(to top, #f07caa, #FF267B);
+    border-radius: 10px;
+}
+.nav_two .active {
+    background-image: linear-gradient(to top, #f07caa, #FF267B);
+    border-radius: 10px;
+}
+/* THE NAVIGATION SECTION ENDS HERE */
+/* THIS IS THE SLICKNAV SECTION START HERE */
+.slicknav_menu {
+    display: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+.slicknav_btn {
+    background-color: transparent;
+    font-size: 20px;
+}
+.slicknav_btn .slicknav_open {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-item {
+    text-transform: uppercase;
+}
+.slicknav_menu {
+    justify-content: end;
+}
+.slicknav_nav {
+    justify-content: left;
+}
+.slicknav_nav ul li a {
+    font-family: Inter-Regular;
+    font-weight: 700;
+}
+.slicknav_nav ul li a:hover {
+    background-image: linear-gradient(to top, #FF4F95, #FF2178);
+    width: 150px;
+    color: azure;
+}
+/* THE SLICKNAV SECTION ENDS HERE */
+/* THE HEADER SECTION ENDS HERE */
+/* THIS IS THE SLIDER SECTION START HERE */
+.slider {
+    background-color: #FCEAE8;
+    margin: 80px 0px;
+    padding: 0px;
+}
+/* THIS IS THE SLIDER SECTION START HERE */
+.single-carousel-item {
+    width: 100%;
+    height: 450px;
+}
+.single-carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+.single-carousel-item {
+    position: relative;
+}
+.owl-prev {
+    position: absolute;
+    top: 35%;
+    left: 20px;
+    font-size: 50px !important;
+    color: #FF2178 !important;
+}
+.owl-next {
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    font-size: 50px !important;
+    color: #FF2178 !important;
+}
+.owl-dots {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.owl-dots .owl-dot{
+    background-color: azure !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.owl-dots .active {
+    background-color: #FF2178 !important;
+}
+.car_main {
+    display: flex;
+}
+.car1 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.product_contant {
+    text-transform: uppercase;
+    padding-left: 50px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.product_contant p:first-child {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e272e;
+}
+.product_contant p:nth-child(2) {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #485460;
+}
+.product_contant p:nth-child(3) {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FF2178;
+}
+.product_contant a {
+    background-image: linear-gradient(to bottom, #fa6ea6, #FF2178);
+    padding: 10px 20px;
+    color: azure;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 2s;
+}
+.product_contant a:hover {
+    background-image: linear-gradient(to top, #FF4F95, #FF2178);
+    text-decoration: none;
+}
+.car2 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.product1 {
+    background-color: #FCEAE8;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px groove #d63031;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 20;
+    overflow: hidden;
+}
+.product1 img {
+    width: 100%;
+    height: 100%;
+}
+.product2 {
+    background-color: #FCEAE8;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px groove #d63031;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    left: 0;
+    margin: auto;
+    z-index: 10;
+    overflow: hidden;
+}
+.product2 img {
+    width: 100%;
+    height: 100%;
+}
+.product3 {
+    background-color: #FCEAE8;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #d63031;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0px;
+    margin: auto;
+    z-index: 10;
+    overflow: hidden;
+}
+.product3 img {
+    width: 100%;
+    height: 100%;
+}
+.product4 {
+    background-color: #FCEAE8;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #d63031;
+    position: absolute;
+    top: 0;
+    right: 60px;
+    bottom: 0px;
+    margin: auto;
+    z-index: 10;
+    overflow: hidden;
+}
+.product4 img {
+    width: 100%;
+    height: 100%;
+}
+.product5 {
+    background-color: #FCEAE8;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #d63031;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    bottom: 0px;
+    margin: auto;
+    z-index: 10;
+    overflow: hidden;
+}
+.product5 img {
+    width: 100%;
+    height: 100%;
+}
+.tv {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.x-box {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+/* THE SLIDER SECTION ENDS HERE */
+/* THE SLIDER SECTION ENDS HERE */
+/* THIS IS THE BENNAR SECTION START HERE */
+.bennar {
+    margin-top: -50px;
+}
+.clothing_main {
+    background-image: linear-gradient(to bottom, #FF4B92, #FF267B);
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+.clothing_contant {
+    width: 65%;
+}
+.clothing_contant p {
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.clothing {
+    width: 35%;
+}
+.clothing img {
+    width: 70px;
+    height: 70px;
+}
+/* THE BENNAR SECTION ENDS HERE */
+/* THIS IS THE PRODUCT HEADDING SECTION START HERE */
+.hadding {
+    color: #485460;
+    text-transform: uppercase;
+    padding: 30px 0px 0px 30px;
+    font-weight: 900;
+}
+/* THE PRODUCT HEADDING SECTION ENDS HERE */
+/* THIS IS THE PORDUCT CARD SECTION START HERE */
+.main_div {
+    background-color: aliceblue;
+    width: 100%;
+    box-shadow: 1px 0px 5px 0px grey;
+    transition: 1s;
+    margin-top: 20px;
+}
+.main_div:hover {
+    width: 100%;
+    box-shadow: 0px 1px 5px 0px grey;
+}
+.img {
+    text-align: center;
+    padding: 20px 0px;
+}
+.img img {
+    width: 200px;
+    height: 200px;
+}
+.heading {
+    text-transform: capitalize;
+    padding-left: 20px;
+    font-weight: 900;
+}
+.heading h4 {
+    color: #1e272e;
+}
+.heading p {
+    color: #485460;
+}
+.heading strong {
+    font-size: 20px;
+    color: #FF267B;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.heading strong sub {
+    color: #485460;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.buy_now {
+    padding: 20px;
+}
+.buy_now a {
+    background-image: linear-gradient(to bottom, #fa6ea6, #FF2178);
+    padding: 10px 20px;
+    color: azure;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 2s;
+}
+.buy_now a:hover {
+    background-image: linear-gradient(to top, #FF4F95, #FF2178);
+    text-decoration: none;
+}
+.see_more {
+    text-align: right;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.see_more a {
+    font-weight: 900;
+    font-size: 10px;
+    color: goldenrod;
+}
+.see_more a:hover {
+    text-decoration: none;
+}
+/* THE PORDUCT CARD SECTION ENDS HERE */
+/* THIS IS THE GET IN TOUCH SECTION START HERE */
+.get_in_touch {
+    background-color: #FCEAE8;
+    margin: 80px 0px;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.get_in_touch h1 {
+    text-transform: uppercase;
+    color: #1e272e;
+}
+.get_in_touch p {
+    text-transform: capitalize;
+    color: #485460;
+}
+.get_in_touch input[type=email] {
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #FF267B;
+    outline: 0px;
+    margin-bottom: 25px;
+}
+.get_in_touch input[type=email]:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #FF267B;
+    outline: 0;
+}
+.get_in_touch a {
+    background-image: linear-gradient(to bottom, #fa6ea6, #FF2178);
+    padding: 10px 20px;
+    color: azure;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 100px;
+    transition: 2s;
+    text-transform: uppercase;
+}
+.get_in_touch a:hover {
+    background-image: linear-gradient(to top, #FF4F95, #FF2178);
+    text-decoration: none;
+}
+/* THE GET IN TOUCH SECTION ENDS HERE */
+/* THIS IS THE FOOTER SECTION START HERE */
+.reserved {
+    padding: 10px 0px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #485460;
+}
+.reserved span {
+    font-size: 12px;
+    color: #d63031;
+}
+/* THE FOOTER SECTION ENDS HERE */
+/* THIS IS THE MATERIAL SCROLLTOP START HERE */
+.material-scrolltop.reveal {
+    background-image: linear-gradient(to bottom, #fa6ea6, #FF2178);
+    width: 40px;
+    height: 40px;
+}
+.material-scrolltop i {
+    font-size: 25px;
+    color: azure;
+}
+/* THE MATERIAL SCROLLTOP ENDS HERE */
+/* THIS IS THE WHATSAPP BUTTON SECTION START HERE */
+.whatsapp {
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+}
+.whatsapp i {
+    font-size: 35px;
+    color: azure;
+    background-image: linear-gradient(to bottom, #fa6ea6, #FF2178);
+    padding: 10px;
+    border-radius: 50%;
+    transition: .5s;
+    box-shadow: 0px 0px 2px 0px #485460;
+}
+.whatsapp i:hover {
+    box-shadow: 0px 0px 5px 1px #485460;
+}
+/* THE WHATSAPP BUTTON SECTION ENDS HERE */
